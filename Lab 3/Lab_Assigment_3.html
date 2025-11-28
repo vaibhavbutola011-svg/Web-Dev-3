@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="LAB2.css">
+     
+</head>
+<body>
+    <header id="header">
+        <h1 >My Portfolio</h1>
+        <nav  class="nav">
+                <ul>
+                  <li> <a href="#About"  class="nav" >About</a></li>
+                 <li><a href="#Project"  class="nav">Project </a></li>
+                  <li> <a href="#skill" class="nav" >Skill</a></li>
+                  <li> <a href="#Contact"  class="nav">Contact</a></li>
+                </ul>
+        </nav> 
+
+    </header>
+    <main id="main content">
+        <section id="About">
+            <h2>About Me:</h2><br>
+            
+            <img src="LAB2.jpg" alt="My photo" height="250" width="250" 
+            ><br>
+          
+        
+            <p>Hello! My name is Vaibhav Butola. I am learning web development.This is my personal portfolio website</p><br>
+        </section> 
+
+        <hr>
+        <h2 class="center">My skills:</h2> 
+            <section id="skill"  > 
+                <br><br>
+                <table>
+                <tr class="row1">
+                <th>Skill</th>
+                <th>Level</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Learning</td>
+                </tr>
+                </table>
+            
+            </section>
+        
+        <hr>
+        <section id="Project" class="project"> 
+
+            <br>
+            <h2>Projects:</h2>
+            <ul><li><h4>Portfolio website: <h4> </li></ul>
+                <p>A personal onepage website to showcase your bio, skills,and contact details</p>
+            <ul><li><h4>User Form:</h4></li></ul>
+                <p>A form webpage with fields like name ,email,and message for practising form handling </p> 
+            <br> 
+        </section> 
+        
+    </main>
+    <hr>
+    <h2 class="center">Contact Me:</h2> 
+    <section  id="Contact"> 
+       <form>
+        <table class="contact-form">
+            <tr>
+                <td><label for="name">Name:</label> </td>
+                <td><input type="text" id="name" placeholder="Enter your name"></td>
+            </tr>
+            <tr><td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" placeholder="Enter your email"></td>
+            </tr>
+            <tr><td><label for="message">Message:</label></td>
+                <td><textarea  id="message" placeholder="write your message"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"> <button type="submit"  class="button">Send</button></td>
+            </tr>
+        </table>
+       </form>
+        
+    </section>
+    <hr>
+    
+
+    
+    <marquee  direction="right" class="marquee"><h2>Thanks for Visiting</h2> </marquee> 
+    <footer id="footer" >
+    <button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})"  class="button">Back to Top</button> 
+   </footer>  
+
+
+
+    
+</body>
+</html>
